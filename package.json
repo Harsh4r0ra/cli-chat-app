@@ -1,0 +1,15 @@
+{
+    "name": "supabase-cli-chat",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "A CLI chat application using Supabase",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js"
+    },
+    "dependencies": {
+      "@supabase/supabase-js": "^2.39.0",
+      "chalk": "^5.3.0",
+      "dotenv": "^16.3.1"
+    }
+  }
