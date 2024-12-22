@@ -19,23 +19,27 @@ A command-line chat application built with Node.js and Supabase, featuring real-
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd supabase-cli-chat
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file:
+
    ```bash
    cp .env.example .env
    ```
 
 4. Add your Supabase credentials to the `.env` file:
-   ```
+
+   ```bash
    SUPABASE_URL=your_supabase_project_url
    SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
@@ -43,6 +47,7 @@ A command-line chat application built with Node.js and Supabase, featuring real-
 ## Usage
 
 1. Start the application:
+
    ```bash
    npm start
    ```
@@ -58,18 +63,18 @@ A command-line chat application built with Node.js and Supabase, featuring real-
 
 ## Project Structure
 
-```
-supabase-cli-chat/
-├── src/
-│   ├── config/
-│   │   └── supabase.js      # Supabase client configuration
-│   ├── services/
-│   │   └── messageService.js # Message handling logic
-│   ├── utils/
-│   │   └── logger.js        # Logging utilities
-│   └── index.js             # Main application file
-├── .env.example             # Environment variables template
-├── .gitignore              # Git ignore file
-├── package.json            # Project configuration
-└── README.md               # Project documentation
-```
+```bash
+    supabase-cli-chat/
+    ├── src/
+    │   ├── config/
+    │   │   └── supabase.js      # Supabase client configuration
+    │   ├── services/
+    │   │   └── messageService.js # Message handling logic
+    │   ├── utils/
+    │   │   └── logger.js        # Logging utilities
+    │   └── index.js             # Main application file
+    ├── .env.example             # Environment variables template
+    ├── .gitignore              # Git ignore file
+    ├── package.json            # Project configuration
+    └── README.md               # Project documentation
+    ```
